@@ -1,0 +1,50 @@
+.depoimentos .container {
+    background-color: var(--vermelho-medio);
+    text-align: center;
+    width: 80%;
+    margin: 5em auto;
+}
+
+.depoimentos__titulo {
+    color: var(--cor-destaque);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.depoimentos__texto {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    margin: 2.5rem 0;
+}
+
+.depoimentos__perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em
+}
+
+.perfil__colaborador {
+    background-image: url(../img/colaboradora.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 10vw;
+    height: 10vh;
+}
+
+.perfil__nome {
+    font-weight: 500;
+}
+
+.perfil__profissao {
+    font-size: 14px;
+    color: var(--cor-texto);
+}
+
+@media screen and (max-width: 1024px) {
+    .depoimentos .container {
+        width: 90%;
+    }
+}
